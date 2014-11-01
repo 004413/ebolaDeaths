@@ -178,3 +178,49 @@ for(var c=19;c<22;c++){
 for(var c=22;c<64;c++){
   drawCell(c,80,COLORS['Zaire']);
 }
+
+/* 2014 epidemic in Guinea */
+for(var c=19;c<81;c++){
+  for(var r=0;r<16;r++){
+    drawCell(c,r,COLORS['Guinea']);
+  }
+}
+for(var c=19;c<45;c++){
+  drawCell(c,16,COLORS['Guinea']);
+}
+
+/* 2014 epidemic in Mali */
+drawCell(45,16,COLORS['Other']);
+
+/* 2014 epidemic in Nigeria */
+for(var c=46;c<54;c++){
+  drawCell(c,16,COLORS['Nigeria']);
+}
+
+/* 2014 epidemic in USA */
+drawCell(54,16,COLORS['Other']);
+
+/* 2014 epidemic in Sierra Leone */
+for(var c=55;c<77;c++){
+  drawCell(c,16,COLORS['Sierra Leone']);
+}
+for(var c=19;c<81;c++){
+  for(var r=17;r<41;r++){
+    drawCell(c,r,COLORS['Sierra Leone']);
+  }
+}
+
+/* 2014 epidemic in Liberia */
+for(var c=19;c<81;c++){
+  for(var r=41;r<66;r++){
+    drawCell(c,r,COLORS['Liberia']);
+  }
+}
+for(var c=22;c<81;c++){
+  for(var r=66;r<80;r++){
+    drawCell(c,r,COLORS['Liberia']);
+  }
+}
+for(var c=64;c<81;c++){
+  drawCell(c,r,COLORS['Liberia']);
+}
