@@ -147,3 +147,34 @@ for(var c=16;c<19;c++){
 for(var c=16;c<18;c++){
   drawCell(c,73,COLORS['Uganda']);
 }
+
+/* DRC 2008-2009 */
+drawCell(18,73,COLORS['Zaire']);
+for(var c=16;c<19;c++){
+  for(var r=74;r<78;r++){
+    drawCell(c,r,COLORS['Zaire']);
+  }
+}
+drawCell(16,78,COLORS['Zaire']);
+
+/* Uganda 2012 */
+for(var c=17;c<22;c++){
+  drawCell(c,78,COLORS['Uganda']);
+}
+for(var c=16;c<22;c++){
+  for(var r=79;r<81;r++){
+    drawCell(c,r,COLORS['Uganda']);
+  }
+}
+
+/* DRC 2012 */
+for(var c=19;c<22;c++){
+  for(var r=66;r<78;r++){
+    drawCell(c,r,COLORS['Zaire']);
+  }
+}
+
+/* DRC 2014 */
+for(var c=22;c<64;c++){
+  drawCell(c,80,COLORS['Zaire']);
+}
